@@ -1,0 +1,311 @@
+body{
+	background-color: #fff;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	margin: 0;
+}
+
+h1, h2, h3, header, footer {text-align: center;}
+
+h1, h2 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 25px;
+}
+
+h2 {
+	font-size: 20px;
+	margin-bottom: 0;
+}
+
+h3 {
+	color: #ff3f59;
+	font-size: 16px;
+	margin-top: 0;
+}
+
+h2, h3 {text-transform: uppercase;}
+
+header h1 {font-size: 40px;}
+
+header img, img {display: block;}
+
+header img {
+	width: 85%;
+	margin: 32px auto 64px auto;
+}
+
+img {
+	margin: 0 auto;
+	width: 65%;
+}
+
+section {padding: 48px 32px;}
+
+footer {
+	background-color: #ff3f59;
+	padding: 16px;
+}
+
+header {
+	background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+	url('../images/beer-hero.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	/*padding:  32px 48px;*/
+	padding-botom: 48px;
+}
+
+/************
+Navigation
+*************/
+nav{
+	float: right;
+	padding: 15px;
+}
+
+
+nav ul {
+	background:  rgba(255, 51, 102, 0.75);
+	display: none;
+	list-style-type:  none;
+	position: absolute;
+	top: 40px;
+	right: 0;
+	width: 100%;
+}
+
+nav li {
+	patting: 10px 0;
+	text-align: center;
+	width: 100%;
+}
+
+nav li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav:hover ul {
+	display: block;
+}
+
+#menu-icon {
+	/*background: #ff3f59 url('../images/menu-icon.png') center;*/
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+}
+
+/************
+Video/Audio
+*************/
+video {
+
+	width: 100%;
+	height: auto;
+}
+
+audio {
+	border:  5px solid #ff3f59;
+	margin: 10px auto;
+	width: 100%;
+}
+
+/************
+Classes
+************/
+.red-section {background-color: #ff3f59;}
+
+.grey-section {
+	background-color: #f3f3f3;
+	color: #000;
+}
+
+.grey-section h1, h2 {color: #000;}
+
+.black-text {color: #000;}
+
+.light-brown-block {
+	background-color: #f4eee2;
+	color: #000;
+}
+
+.red-block {
+	background-color: #ff3f59;
+	text-align: center;
+}
+
+.dark-brown-block {
+	background-color: #26231c;
+}
+
+/*******
+Column Classes
+*******/
+.full-width-column {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin: 0 auto;
+	max-width: 1440px;
+	width: 95%;
+}
+
+.small-columns {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 70px;
+	margin: auto;
+	width: 95%;
+}
+
+/************
+Grid Area
+*************/
+.beer-one-text {
+	grid-area: beeronetxt;
+}
+
+.beer-one-image {
+	grid-area: beeroneimg;
+}
+
+.beer-two-text {
+	grid-area: beertwotxt;
+}
+
+.beer-two-image {
+	grid-area: beertwoimg;
+}
+
+.beer-three-text {
+	grid-area: beerthrtxt;
+}
+
+.beer-three-image {
+	grid-area: beerthrimg;
+}
+
+.beer-one-text,
+.beer-one-image,
+.beer-two-text,
+.beer-two-image,
+.beer-three-text,
+.beer-three-image {
+	padding: 48px 24px;
+}
+
+.oast-house-wrapper {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-areas: 
+		'beeronetxt'
+		'beeroneimg'
+		'beertwotxt'
+		'beertwoimg'
+		'beerthrtxt'
+		'beerthrimg';
+	margin: 0 auto;
+	max-width: 2560px;
+}
+
+.oast-house-wrapper h3 {
+	font-style: italic;
+	margin-top: 25px;
+	text-align: left;
+	text-transform: none;
+}
+
+.oast-house-wrapper img {
+	display: block;
+	margin:  0 auto;
+	width: 65%;
+}
+
+/*************
+ Media Queries
+**************/
+
+@media screen and (min-width: 425px) {
+	h1 {font-size: 30px;}
+}
+
+@media screen and (min-width: 768px) {
+	h1 {font-size: 60px;}
+
+	h2 {
+		font-size: 32px;
+	}
+
+	h3 {font-size:  18px;}
+
+	header h1 {font-size: 88px;}
+
+	header {padding: 80px 32px;}
+
+	section {padding: 80px 32px;}
+
+	.small-columns {grid-template-columns: repeat(2, 1fr);}
+
+	.oast-house-wrapper {
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-areas: 
+		'beeronetxt beeroneimg'
+		'beertwoimg beertwotxt'
+		'beerthrtxt beerthrimg';
+	}
+
+	.oast-house-wrapper img {
+		width:  85%;
+	}
+
+nav ul, nav li {display: inline-block;}
+
+nav ul {
+	background: transparent;
+	float: right;
+	top: 18px;
+	text-align: right;
+	width: 70%;
+}
+
+nav li{
+	padding: 10px;
+	width: 20%;
+}
+
+#media-icon {
+
+}
+}
+
+@media screen and (min-width: 1024px) {
+	header h1 {font-size: 75px;}
+
+	header img {width: 60%;}
+
+	h1 {font-size: 84px;}
+
+	.small-columns {grid-gap: 90px;}
+
+	.oast-house-wrapper img {
+		width: 45%;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	header img {width: 30%;}
+
+	h1 {font-size: 72px;}
+
+	.small-columns {grid-template-columns: repeat(4, 1fr);}
+
+	.oast-house-wrapper img {
+		width: 30%;
+	}
+}
