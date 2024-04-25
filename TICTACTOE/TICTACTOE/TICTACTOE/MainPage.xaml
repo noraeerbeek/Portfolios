@@ -1,0 +1,375 @@
+﻿<Page
+    x:Class="TICTACTOE.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="gray">
+
+    <Grid>
+
+
+        <Grid Name="gameGrid" Background="LightSalmon" Width="800" Height="800" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80" />
+                <RowDefinition Height="80" />
+                <RowDefinition Height="80" />
+                <RowDefinition Height="80" />
+                <RowDefinition Height="80" />
+                <RowDefinition Height="80" />
+                <RowDefinition Height="80" />
+                <RowDefinition Height="80" />
+                <RowDefinition Height="80" />
+                <RowDefinition Height="80" />
+            </Grid.RowDefinitions>
+            <Border Grid.Row="0" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button00" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="0" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button01" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="0" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button02" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="0" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button03" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="0" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button04" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="0" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button05" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="0" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button06" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="0" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button07" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="0" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button08" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="0" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button09" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="0" Grid.Column="10" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button10" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button101" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button11" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button12" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button13" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button14" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button15" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button16" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button17" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button18" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button19" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button20" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button21" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+            <Border Grid.Row="2" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button22" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button23" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button24" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button25" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button26" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button27" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button28" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button29" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+            <Border Grid.Row="3" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button30" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button31" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button32" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button33" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button34" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button35" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button36" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button37" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button38" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button39" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+            <Border Grid.Row="4" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button40" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button41" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+            <Border Grid.Row="4" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button42" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button43" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button44" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button45" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button46" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button47" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button48" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button49" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+
+            <Border Grid.Row="5" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button50" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button51" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+            <Border Grid.Row="5" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button52" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button53" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button54" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button55" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button56" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button57" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button58" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button59" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+
+            <Border Grid.Row="6" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button60" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button61" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+            <Border Grid.Row="6" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button62" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button63" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button64" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button65" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button66" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button67" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button68" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button69" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+
+            <Border Grid.Row="7" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button70" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button71" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+            <Border Grid.Row="7" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button72" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button73" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button74" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button75" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button76" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button77" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button78" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button79" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+
+            <Border Grid.Row="8" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button80" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button81" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+            <Border Grid.Row="8" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button82" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button83" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button84" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button85" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button86" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button87" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button88" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button89" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+            <Border Grid.Row="9" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button90" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button91" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+            <Border Grid.Row="9" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button92" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button93" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button94" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button95" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button96" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button97" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button98" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <Button Name="button99" Click="Button_Click" Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+
+
+        </Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="125,155,0,0" TextWrapping="Wrap" Text="TIC"  FontSize="80" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" Width="142" d:LayoutRounding="Auto" Height="104">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="0.72"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="104,421,0,0" TextWrapping="Wrap" Text="TAC" VerticalAlignment="Top" FontSize="80"/>
+        <TextBlock HorizontalAlignment="Left" Margin="108,670,0,0" TextWrapping="Wrap" Text="TOE" VerticalAlignment="Top" FontSize="80"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1247,139,0,0" TextWrapping="Wrap" Text="LET'S" VerticalAlignment="Top" FontSize="80"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1304,421,0,0" TextWrapping="Wrap" Text="DO" VerticalAlignment="Top" FontSize="80"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1241,670,0,0" TextWrapping="Wrap" Text="MORE!" VerticalAlignment="Top" FontSize="80" Width="265"/>
+    </Grid>
+</Page>

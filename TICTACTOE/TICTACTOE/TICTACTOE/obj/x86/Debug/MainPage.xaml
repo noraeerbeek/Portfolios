@@ -1,0 +1,376 @@
+﻿<Page
+    x:Class="TICTACTOE.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="gray">
+
+    <Grid>
+
+
+        <Grid x:ConnectionId='2' Name="gameGrid" Background="LightSalmon" Width="800" Height="800" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80" />
+                <RowDefinition Height="80" />
+                <RowDefinition Height="80" />
+                <RowDefinition Height="80" />
+                <RowDefinition Height="80" />
+                <RowDefinition Height="80" />
+                <RowDefinition Height="80" />
+                <RowDefinition Height="80" />
+                <RowDefinition Height="80" />
+                <RowDefinition Height="80" />
+            </Grid.RowDefinitions>
+            <Border Grid.Row="0" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='103' Name="button00"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="0" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='102' Name="button01"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="0" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='101' Name="button02"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="0" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='100' Name="button03"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="0" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='99' Name="button04"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="0" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='98' Name="button05"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="0" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='97' Name="button06"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="0" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='96' Name="button07"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="0" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='95' Name="button08"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="0" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='94' Name="button09"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="0" Grid.Column="10" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='93' Name="button10"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='92' Name="button101"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='91' Name="button11"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='90' Name="button12"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='89' Name="button13"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='88' Name="button14"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='87' Name="button15"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='86' Name="button16"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='85' Name="button17"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='84' Name="button18"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='83' Name="button19"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='82' Name="button20"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='81' Name="button21"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+            <Border Grid.Row="2" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='80' Name="button22"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='79' Name="button23"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='78' Name="button24"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='77' Name="button25"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='76' Name="button26"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='75' Name="button27"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='74' Name="button28"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='73' Name="button29"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+            <Border Grid.Row="3" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='72' Name="button30"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='71' Name="button31"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='70' Name="button32"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='69' Name="button33"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='68' Name="button34"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='67' Name="button35"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='66' Name="button36"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='65' Name="button37"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='64' Name="button38"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='63' Name="button39"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+            <Border Grid.Row="4" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='62' Name="button40"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='61' Name="button41"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+            <Border Grid.Row="4" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='60' Name="button42"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='59' Name="button43"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='58' Name="button44"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='57' Name="button45"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='56' Name="button46"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='55' Name="button47"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='54' Name="button48"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='53' Name="button49"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+
+            <Border Grid.Row="5" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='52' Name="button50"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='51' Name="button51"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+            <Border Grid.Row="5" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='50' Name="button52"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='49' Name="button53"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='48' Name="button54"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='47' Name="button55"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='46' Name="button56"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='45' Name="button57"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='44' Name="button58"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='43' Name="button59"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+
+            <Border Grid.Row="6" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='42' Name="button60"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='41' Name="button61"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+            <Border Grid.Row="6" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='40' Name="button62"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='39' Name="button63"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='38' Name="button64"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='37' Name="button65"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='36' Name="button66"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='35' Name="button67"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='34' Name="button68"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='33' Name="button69"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+
+            <Border Grid.Row="7" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='32' Name="button70"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='31' Name="button71"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+            <Border Grid.Row="7" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='30' Name="button72"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='29' Name="button73"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='28' Name="button74"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='27' Name="button75"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='26' Name="button76"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='25' Name="button77"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='24' Name="button78"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='23' Name="button79"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+
+            <Border Grid.Row="8" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='22' Name="button80"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='21' Name="button81"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+            <Border Grid.Row="8" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='20' Name="button82"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='19' Name="button83"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='18' Name="button84"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='17' Name="button85"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='16' Name="button86"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='15' Name="button87"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='14' Name="button88"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='13' Name="button89"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+            <Border Grid.Row="9" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='12' Name="button90"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='11' Name="button91"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+            <Border Grid.Row="9" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='10' Name="button92"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='9' Name="button93"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="4" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='8' Name="button94"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="5" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='7' Name="button95"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="6" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='6' Name="button96"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="7" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='5' Name="button97"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="8" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='4' Name="button98"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+            <Border Grid.Row="9" Grid.Column="9" BorderBrush="Black" BorderThickness="1">
+                <Button x:ConnectionId='3' Name="button99"                      Content="" FontSize="24" FontWeight="Bold" Foreground="Black"/>
+            </Border>
+
+
+
+        </Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="125,155,0,0" TextWrapping="Wrap" Text="TIC"  FontSize="80" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" Width="142" d:LayoutRounding="Auto" Height="104">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="0.72"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="104,421,0,0" TextWrapping="Wrap" Text="TAC" VerticalAlignment="Top" FontSize="80"/>
+        <TextBlock HorizontalAlignment="Left" Margin="108,670,0,0" TextWrapping="Wrap" Text="TOE" VerticalAlignment="Top" FontSize="80"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1247,139,0,0" TextWrapping="Wrap" Text="LET'S" VerticalAlignment="Top" FontSize="80"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1304,421,0,0" TextWrapping="Wrap" Text="DO" VerticalAlignment="Top" FontSize="80"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1241,670,0,0" TextWrapping="Wrap" Text="MORE!" VerticalAlignment="Top" FontSize="80" Width="265"/>
+    </Grid>
+</Page>
+
