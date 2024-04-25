@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pizza Order</title>
+</head>
+<body>
+    <form>
+        <h1>Pizza Order</h1>
+        <p>
+            <label for="cboPizza">Select a Base Pizza:</label>
+            <select id="cboPizza">
+                <option value="18.99">Meat Lovers</option>
+                <option value="15.99">Hawaiian</option>
+                <option value="12.99">Vegetarian</option>
+            </select>
+        </p>
+
+        <div class="options">
+            <label><input type="checkbox" name="chkOptions" id="chkExtraCheese" value=".50">Extra Cheese</label>
+            <label><input type="checkbox" name="chkOptions" id="chkExtraSauce" value=".25">Extra Sauce</label>
+            <label><input type="checkbox" name="chkOptions" id="chkAnchovies" value=".75">Anchovies</label>
+        </div>
+
+        <input type="button" id="calcTotal" value="Order Now">
+        
+        <p class="total" id="totalAmount"></p>
+    </form>
+    <script src="scripts/pizza.js"></script>
+</body>
+</html>
